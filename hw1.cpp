@@ -1,7 +1,7 @@
 //Matthew Bonsall
 //MVB0005
 //Compiled using g++ compiler
-//test
+//HW1.cpp
 
 #include <iostream>
 using namespace std;

@@ -1,6 +1,7 @@
 //Matthew Bonsall
 //MVB0005
 //Compiled using g++ compiler
+//hw2.cpp
 
 #include <iostream>
 using namespace std;
@@ -32,7 +33,7 @@ int main(){
 		return 0;
 	}
 	cout << "\nMonth\tBalance\tPayment\tRate\tInterest  Principal";
-	cout << "\n0\t$" << loan_amount << "\tN/A\tN/a\tN/A\tN/A";	
+	cout << "\n0\t$" << loan_amount << "\tN/A\tN/A\tN/A\tN/A";	
 	while(loan_amount > 0){
 		month_interest =  loan_amount*interest_rate/100;
 		total_interest += month_interest;
@@ -56,3 +57,4 @@ int main(){
 	
 return 0;
 }
+

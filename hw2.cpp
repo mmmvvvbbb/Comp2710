@@ -21,9 +21,6 @@ int main(){
 	cout << "Monthly Payments: ";
 	cin >> month_pay;
 	
-	cout << "\n******************************************************";
-	cout << "\n\tAmortization Table";
-	cout << "\n******************************************************";
 
 	int cur_month = 0;
 	double month_interest, total_interest, principal;
@@ -32,6 +29,9 @@ int main(){
 		cout << "\nThe owed interest is greater than the payment!\n";
 		return 0;
 	}
+	cout << "\n******************************************************";
+	cout << "\n\tAmortization Table";
+	cout << "\n******************************************************";
 	cout << "\nMonth\tBalance\tPayment\tRate\tInterest  Principal";
 	cout << "\n0\t$" << loan_amount << "\tN/A\tN/A\tN/A\tN/A";	
 	while(loan_amount > 0){
